@@ -35,7 +35,7 @@
 				
 						<div class="text-center mb-5 mb-lg-10 py-10 py-lg-20">
 						
-							<h1 class="text-white lh-base fw-bolder fs-2x fs-lg-3x mb-15">MicroForce Analytics
+							<h1 class="text-white lh-base fw-bolder fs-2x fs-lg-3x mb-15">Project "MicroForce Analytics"
 							<br />
 							<span style="background: linear-gradient(to right, #12CE5D 0%, #FFD80C 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
                                 TEAM CODECREATORS
