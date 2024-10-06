@@ -15,7 +15,7 @@
     </style>
 </head>
 <body>
-    <h2>Força Muscular em Função das Amostras</h2>
+    <h2>Muscle Strength as a Function of Samples</h2>
     <canvas id="myChart" width="400" height="200"></canvas>
     <input type="range" id="frequencySlider" min="1" max="160" value="1" step="1">
     <label for="frequencySlider">Frequência: <span id="frequencyValue">1 Hz</span></label>
@@ -38,7 +38,7 @@
             data: {
                 labels: Object.keys(forceData[1]), // Nomes das amostras
                 datasets: [{
-                    label: 'Força Muscular',
+                    label: 'Muscle Strength',
                     data: interpolateAllForces(1), // Dados iniciais com a frequência 1
                     borderColor: 'rgba(75, 192, 192, 1)',
                     borderWidth: 2,
@@ -51,13 +51,13 @@
                         beginAtZero: true,
                         title: {
                             display: true,
-                            text: 'Força (N)'
+                            text: 'Force (N)'
                         }
                     },
                     x: {
                         title: {
                             display: true,
-                            text: 'Amostras'
+                            text: 'Samples'
                         }
                     }
                 }
