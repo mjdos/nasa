@@ -4,6 +4,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# MicroForce Analytics
+
+
 <br><br>
 ## 📚 Introduction
 <br>
@@ -27,12 +30,14 @@ The use of graphs to present multiple variables (such as force, frequency, and G
 
 ## 🎯 Challenge
 <br>
-C....
+The graph will be a valuable tool for optimizing data usage by allowing a clear and intuitive visualization of complex information, such as the relationship between stimulation frequency and muscle strength. The ability to interact with the data in real time, adjusting frequencies through a slider, facilitates dynamic analysis that helps identify patterns and trends. Additionally, comparing experimental groups provides an effective way to assess whether the observed changes are significant, fostering the formulation of new hypotheses. This contributes to more informed decision-making, especially in developing strategies to mitigate muscle atrophy in astronauts.
 <br>
+
 ## 🌐 Link of Prototype
 https://codecreators.com.br/
 <br><br>
 <br><br>
+
 ## 🌐 Link of the Presentation
 <br>
 L...
