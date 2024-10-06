@@ -5,7 +5,7 @@
 </p>
 
 # MicroForce Analytics
-
+The tool for optimizing data usage by allowing a clear and intuitive visualization of complex information.
 
 <br><br>
 ## 📚 Introduction
