@@ -14,6 +14,16 @@
 		<link href="2024/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
 		<link href="2024/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 
+		<style>
+			#myPolarChart {
+				width: 700px !important; /* Definindo largura */
+				height: 700px !important; /* Definindo altura */
+			}
+			#myRadarChart {
+				width: 700px !important; /* Definindo largura */
+				height: 700px !important; /* Definindo altura */
+			}
+		</style>
 	</head>
 
 	<body id="kt_body"  data-bs-spy="scroll" data-bs-target="#kt_landing_menu" data-bs-offset="200" class="bg-white position-relative">
@@ -167,11 +177,13 @@
 						The graphs can help visually compare the responses of different experimental groups. This can clarify whether the observed changes in muscle strength are significant and how they relate to variables such as GSK3β content.
 
 						<div style="width:400 !important;">
-						<canvas id="myRadarChart" width="400" height="150"></canvas>
+							<div align="center">
+								<canvas id="myRadarChart" width="400" height="150"></canvas>
+							</div>
 						</div>
 						<input type="range" id="frequencySliderRadar" min="1" max="160" value="1" step="1">
 						<label for="frequencySliderRadar">Frequency: <span id="frequencyValueRadar">1 Hz</span></label>
-						
+						<br>
 					</div>
 				</div>
 			</div>
@@ -218,7 +230,9 @@
 						<div class="fs-5 text-muted fw-bold">
 						The graph can help identify patterns, such as the relationship between frequency and muscle strength, allowing researchers to better understand the underlying mechanisms behind the changes observed during the experiments.
 						<br><br>
+						<div align="center">
 						<canvas id="myPolarChart" width="150" height="150"></canvas>
+						</div>
 						<input type="range" id="frequencySliderPolar" min="1" max="160" value="1" step="1"><br>
 						<label for="frequencySliderPolar">Frequency: <span id="frequencyValuePolar">1 Hz</span></label>
 						
@@ -240,7 +254,9 @@
 						<div class="row py-10 py-lg-20" align="center">
 							
 							<h3 class="fs-2hx text-white mb-5">Thank You</h3>
-					
+							<h2 class="text-white">
+								https://github.com/mjdos/nasa
+							</h2>
 						</div>
 					</div>
 
