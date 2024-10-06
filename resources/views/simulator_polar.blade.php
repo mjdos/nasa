@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gráfico Polar Area</title>
+    <title>MicroForce Analytics</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
@@ -19,10 +19,12 @@
     </style>
 </head>
 <body>
-    <h2>Gráfico de Área Polar</h2>
+    <div align="center">
+        <h2>MicroForce Analytics<br>Soleus specific force production in hindlimb suspended mice</h2>
+    </div>
     <canvas id="myPolarChart" width="150" height="150"></canvas>
     <input type="range" id="frequencySlider" min="1" max="160" value="1" step="1">
-    <label for="frequencySlider">Frequência: <span id="frequencyValue">1 Hz</span></label>
+    <label for="frequencySlider">Frequency: <span id="frequencyValue">1 Hz</span></label>
 
     <script>
         const ctx = document.getElementById('myPolarChart').getContext('2d');
@@ -45,7 +47,7 @@
             data: {
                 labels: sampleLabels, // Nomes das amostras
                 datasets: [{
-                    label: 'Força (N)',
+                    label: 'Force (N)',
                     data: forceData[1], // Dados iniciais com a frequência 1
                     backgroundColor: [
                         'rgba(255, 182, 193, 0.6)', // Light Pink
@@ -71,15 +73,6 @@
                                 size: 18
                             }
                         }
-                    }
-                },
-                plugins: {
-                    legend: {
-                        position: 'top',
-                    },
-                    title: {
-                        display: true,
-                        text: 'Gráfico de Área Polar com Rótulos Centrados'
                     }
                 }
             }

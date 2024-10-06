@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gráfico de Barras Interativo</title>
+    <title>MicroForce Analytics</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
@@ -16,10 +16,12 @@
     </style>
 </head>
 <body>
-    <h2>Força Muscular em Função das Amostras</h2>
+    <div align="center">
+        <h2>MicroForce Analytics<br>Soleus specific force production in hindlimb suspended mice</h2>
+    </div>
     <canvas id="myBarChart" width="400" height="150"></canvas>
     <input type="range" id="frequencySlider" min="1" max="160" value="1" step="1">
-    <label for="frequencySlider">Frequência: <span id="frequencyValue">1 Hz</span></label>
+    <label for="frequencySlider">Frequency: <span id="frequencyValue">1 Hz</span></label>
 
     <script>
         const ctx = document.getElementById('myBarChart').getContext('2d');
@@ -51,7 +53,7 @@
             data: {
                 labels: Object.keys(forceData[1]), // Nomes das amostras
                 datasets: [{
-                    label: 'Força (N)',
+                    label: 'Force (N)',
                     data: interpolateAllForces(1), // Dados iniciais com a frequência 1
                     backgroundColor: pastelColors,
                     borderWidth: 1
@@ -63,13 +65,13 @@
                         beginAtZero: true,
                         title: {
                             display: true,
-                            text: 'Força (N)'
+                            text: 'Force (N)'
                         }
                     },
                     x: {
                         title: {
                             display: true,
-                            text: 'Amostras'
+                            text: 'Samples'
                         }
                     }
                 }

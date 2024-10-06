@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gráfico Interativo com Slider</title>
+    <title>MicroForce Analytics</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
@@ -15,10 +15,12 @@
     </style>
 </head>
 <body>
-    <h2>Muscle Strength as a Function of Samples</h2>
+    <div align="center">
+        <h2>MicroForce Analytics<br>Soleus specific force production in hindlimb suspended mice</h2>
+    </div>
     <canvas id="myChart" width="400" height="200"></canvas>
     <input type="range" id="frequencySlider" min="1" max="160" value="1" step="1">
-    <label for="frequencySlider">Frequência: <span id="frequencyValue">1 Hz</span></label>
+    <label for="frequencySlider">Frequency: <span id="frequencyValue">1 Hz</span></label>
 
     <script>
         var ctx = document.getElementById('myChart').getContext('2d');
@@ -38,7 +40,7 @@
             data: {
                 labels: Object.keys(forceData[1]), // Nomes das amostras
                 datasets: [{
-                    label: 'Muscle Strength',
+                    label: 'Muscle Force',
                     data: interpolateAllForces(1), // Dados iniciais com a frequência 1
                     borderColor: 'rgba(75, 192, 192, 1)',
                     borderWidth: 2,

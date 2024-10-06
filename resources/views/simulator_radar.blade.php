@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gráfico de Radar Interativo</title>
+    <title>MicroForce Analytics</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
@@ -19,10 +19,12 @@
     </style>
 </head>
 <body>
-    <h2>Força Muscular em Função das Amostras</h2>
+    <div align="center">
+        <h2>MicroForce Analytics<br>Soleus specific force production in hindlimb suspended mice</h2>
+    </div>
     <canvas id="myRadarChart" width="400" height="400"></canvas>
     <input type="range" id="frequencySlider" min="1" max="160" value="1" step="1">
-    <label for="frequencySlider">Frequência: <span id="frequencyValue">1 Hz</span></label>
+    <label for="frequencySlider">Frequency: <span id="frequencyValue">1 Hz</span></label>
 
     <script>
         const ctx = document.getElementById('myRadarChart').getContext('2d');
@@ -42,7 +44,7 @@
             data: {
                 labels: Object.keys(forceData[1]), // Nomes das amostras
                 datasets: [{
-                    label: 'Força Muscular',
+                    label: 'Muscle Force',
                     data: interpolateAllForces(1), // Dados iniciais com a frequência 1
                     backgroundColor: 'rgba(75, 192, 192, 0.2)',
                     borderColor: 'rgba(75, 192, 192, 1)',
