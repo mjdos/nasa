@@ -95,28 +95,21 @@ class MuscleContractilityController extends Controller
     public function getForceData()
     {
         $forceData = [];
-        $frequencys = Frequency::get(); // Carregue as frequências com seus contratos relacionados
+        $frequencys = Frequency::get(); 
         
         foreach ($frequencys as $frequency) {
-            // Extrair o valor numérico do campo name
             $numericValue = filter_var($frequency->name, FILTER_SANITIZE_NUMBER_INT);
         
-            // Verifique se o valor numérico não está vazio
             if (!empty($numericValue)) {
-                // Recuperar os dados da tabela tbl_contractiliy relacionados a esta frequência
                 $contracts = Contractility::where('frequency_id', $frequency->id)->get();
                 
-                // Criar um array para armazenar os dados dos contratos
                 $contractData = [];
         
                 foreach ($contracts as $contract) {
-                    // Formatar os dados conforme necessário
                     $contractData[] = "{$contract->sample->name}: {$contract->frequency}";                }
         
-                // Junte os dados dos contratos em uma string
                 $contractString = implode(", ", $contractData);
         
-                // Formatar o resultado no formato desejado
                 $forceData[] = "$numericValue: [$contractString]";
             }
         }

@@ -33,7 +33,7 @@ Route::post('/importar-excel', [ExemploController::class, 'importarExcel'])->nam
 
 Route::get('/muscleIndex', [MuscleContractilityController::class, 'index'])->name('muscleIndex');
 Route::post('/import-csv', [MuscleContractilityController::class, 'import'])->name('import'); 
-Route::get('/force-data', [MuscleContractilityController::class, 'getForceData']);
+Route::get('/force-data', [MuscleContractilityController::class, 'getForceData'])->name('datagrafic');
 
 Route::get('/simulator', function () {
     return view('simulator');
