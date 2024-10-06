@@ -35,7 +35,7 @@
 				
 						<div class="text-center mb-5 mb-lg-10 py-10 py-lg-20">
 						
-							<h1 class="text-white lh-base fw-bolder fs-2x fs-lg-3x mb-15">MicroForce Analytics
+							<h1 class="text-white lh-base fw-bolder fs-2x fs-lg-3x mb-15">Project "MicroForce Analytics"
 							<br />
 							<span style="background: linear-gradient(to right, #12CE5D 0%, #FFD80C 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
                                 TEAM CODECREATORS
@@ -191,9 +191,9 @@
 					<div class="container">
 						<div class="text-center mt-15 mb-18" id="achievements" data-kt-scroll-offset="{default: 100, lg: 150}">
 
-							<h3 class="fs-2hx text-white fw-bolder mb-2">Challenge</h3>
+							<h3 class="fs-2hx text-white fw-bolder mb-2">Future</h3>
 							<br><br>
-							<h2 class="text-white">The graphs will be a valuable tool for optimizing data usage by allowing a clear and intuitive visualization of complex information, such as the relationship between stimulation frequency and muscle strength. The ability to interact with the data in real time, adjusting frequencies through a slider, facilitates dynamic analysis that helps identify patterns and trends. Additionally, comparing experimental groups provides an effective way to assess whether the observed changes are significant, fostering the formulation of new hypotheses. This contributes to more informed decision-making, especially in developing strategies to mitigate muscle atrophy in astronauts.
+							<h2 class="text-white">In the future, the "MicroForce Analytics" tool can be enhanced by integrating additional data sources, expanding its capabilities to provide even deeper insights. This initial version focused on a specific dataset to demonstrate its practical application in data visualization and analysis. As the tool evolves, it has the potential to incorporate more variables and data types, further supporting researchers in exploring complex phenomena and generating new hypotheses. This flexibility ensures that "MicroForce Analytics" remains a powerful and adaptable tool for a wide range of scientific applications.
 							</h2>
 						</div>
 					</div>
@@ -217,7 +217,7 @@
 					
 						<div class="fs-5 text-muted fw-bold">
 						The graph can help identify patterns, such as the relationship between frequency and muscle strength, allowing researchers to better understand the underlying mechanisms behind the changes observed during the experiments.
-
+						<br><br>
 						<canvas id="myPolarChart" width="150" height="150"></canvas>
 						<input type="range" id="frequencySliderPolar" min="1" max="160" value="1" step="1"><br>
 						<label for="frequencySliderPolar">Frequency: <span id="frequencyValuePolar">1 Hz</span></label>
@@ -228,168 +228,47 @@
 
 
 			<div class="mb-0">
-				<!--begin::Curve top-->
+				
 				<div class="landing-curve landing-dark-color">
 					<svg viewBox="15 -1 1470 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M1 48C4.93573 47.6644 8.85984 47.3311 12.7725 47H1489.16C1493.1 47.3311 1497.04 47.6644 1501 48V47H1489.16C914.668 -1.34764 587.282 -1.61174 12.7725 47H1V48Z" fill="currentColor"></path>
 					</svg>
 				</div>
-				<!--end::Curve top-->
-				<!--begin::Wrapper-->
+
 				<div class="landing-dark-bg pt-20">
-					<!--begin::Container-->
 					<div class="container">
-						<!--begin::Row-->
-						<div class="row py-10 py-lg-20">
-							<!--begin::Col-->
-							<div class="col-lg-6 pe-lg-16 mb-10 mb-lg-0">
-								<!--begin::Block-->
-								<div class="rounded landing-dark-border p-9 mb-10">
-									<!--begin::Title-->
-									<h2 class="text-white">Would you need a Custom License?</h2>
-									<!--end::Title-->
-									<!--begin::Text-->
-									<span class="fw-normal fs-4 text-gray-700">Email us to
-									<a href="https://keenthemes.com/support" class="text-white opacity-50 text-hover-primary">support@keenthemes.com</a></span>
-									<!--end::Text-->
-								</div>
-								<!--end::Block-->
-								<!--begin::Block-->
-								<div class="rounded landing-dark-border p-9">
-									<!--begin::Title-->
-									<h2 class="text-white">How About a Custom Project?</h2>
-									<!--end::Title-->
-									<!--begin::Text-->
-									<span class="fw-normal fs-4 text-gray-700">Use Our Custom Development Service.
-									<a href="../../demo2/dist/pages/profile/overview.html" class="text-white opacity-50 text-hover-primary">Click to Get a Quote</a></span>
-									<!--end::Text-->
-								</div>
-								<!--end::Block-->
-							</div>
-							<!--end::Col-->
-							<!--begin::Col-->
-							<div class="col-lg-6 ps-lg-16">
-								<!--begin::Navs-->
-								<div class="d-flex justify-content-center">
-									<!--begin::Links-->
-									<div class="d-flex fw-bold flex-column me-20">
-										<!--begin::Subtitle-->
-										<h4 class="fw-bolder text-gray-400 mb-6">More for Metronic</h4>
-										<!--end::Subtitle-->
-										<!--begin::Link-->
-										<a href="#" class="text-white opacity-50 text-hover-primary fs-5 mb-6">FAQ</a>
-										<!--end::Link-->
-										<!--begin::Link-->
-										<a href="#" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Documentaions</a>
-										<!--end::Link-->
-										<!--begin::Link-->
-										<a href="#" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Video Tuts</a>
-										<!--end::Link-->
-										<!--begin::Link-->
-										<a href="#" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Changelog</a>
-										<!--end::Link-->
-										<!--begin::Link-->
-										<a href="#" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Github</a>
-										<!--end::Link-->
-										<!--begin::Link-->
-										<a href="#" class="text-white opacity-50 text-hover-primary fs-5">Tutorials</a>
-										<!--end::Link-->
-									</div>
-									<!--end::Links-->
-									<!--begin::Links-->
-									<div class="d-flex fw-bold flex-column ms-lg-20">
-										<!--begin::Subtitle-->
-										<h4 class="fw-bolder text-gray-400 mb-6">Stay Connected</h4>
-										<!--end::Subtitle-->
-										<!--begin::Link-->
-										<a href="#" class="mb-6">
-											<img src="2024/assets/media/svg/brand-logos/facebook-4.svg" class="h-20px me-2" alt="" />
-											<span class="text-white opacity-50 text-hover-primary fs-5 mb-6">Facebook</span>
-										</a>
-										<!--end::Link-->
-										<!--begin::Link-->
-										<a href="#" class="mb-6">
-											<img src="2024/assets/media/svg/brand-logos/github.svg" class="h-20px me-2" alt="" />
-											<span class="text-white opacity-50 text-hover-primary fs-5 mb-6">Github</span>
-										</a>
-										<!--end::Link-->
-										<!--begin::Link-->
-										<a href="#" class="mb-6">
-											<img src="2024/assets/media/svg/brand-logos/twitter.svg" class="h-20px me-2" alt="" />
-											<span class="text-white opacity-50 text-hover-primary fs-5 mb-6">Twitter</span>
-										</a>
-										<!--end::Link-->
-										<!--begin::Link-->
-										<a href="#" class="mb-6">
-											<img src="2024/assets/media/svg/brand-logos/dribbble-icon-1.svg" class="h-20px me-2" alt="" />
-											<span class="text-white opacity-50 text-hover-primary fs-5 mb-6">Dribbble</span>
-										</a>
-										<!--end::Link-->
-										<!--begin::Link-->
-										<a href="#" class="mb-6">
-											<img src="2024/assets/media/svg/brand-logos/instagram-2-1.svg" class="h-20px me-2" alt="" />
-											<span class="text-white opacity-50 text-hover-primary fs-5 mb-6">Instagram</span>
-										</a>
-										<!--end::Link-->
-									</div>
-									<!--end::Links-->
-								</div>
-								<!--end::Navs-->
-							</div>
-							<!--end::Col-->
+						<div class="row py-10 py-lg-20" align="center">
+							
+							<h3 class="fs-2hx text-white mb-5">Thank You</h3>
+					
 						</div>
-						<!--end::Row-->
 					</div>
-					<!--end::Container-->
-					<!--begin::Separator-->
+
+
+					
+
+
+
 					<div class="landing-dark-separator"></div>
-					<!--end::Separator-->
-					<!--begin::Container-->
 					<div class="container">
-						<!--begin::Wrapper-->
 						<div class="d-flex flex-column flex-md-row flex-stack py-7 py-lg-10">
-							<!--begin::Copyright-->
 							<div class="d-flex align-items-center order-2 order-md-1">
-								<!--begin::Logo-->
-								<a href="../../demo2/dist/landing.html">
-									<img alt="Logo" src="2024/assets/media/logos/logo-landing.svg" class="h-15px h-md-20px" />
-								</a>
-								<!--end::Logo image-->
-								<!--begin::Logo image-->
-								<span class="mx-5 fs-6 fw-bold text-gray-600 pt-1" href="https://keenthemes.com">© 2021 Keenthemes Inc.</span>
-								<!--end::Logo image-->
+
+								<span class="mx-5 fs-6 fw-bold text-gray-600 pt-1" href="https://codecreators.com.br/">Code Creators.</span>
+								
 							</div>
-							<!--end::Copyright-->
-							<!--begin::Menu-->
-							<ul class="menu menu-gray-600 menu-hover-primary fw-bold fs-6 fs-md-5 order-1 mb-5 mb-md-0">
-								<li class="menu-item">
-									<a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
-								</li>
-								<li class="menu-item mx-5">
-									<a href="https://keenthemes.com/support" target="_blank" class="menu-link px-2">Support</a>
-								</li>
-								<li class="menu-item">
-									<a href="" target="_blank" class="menu-link px-2">Purchase</a>
-								</li>
-							</ul>
-							<!--end::Menu-->
 						</div>
-						<!--end::Wrapper-->
 					</div>
-					<!--end::Container-->
 				</div>
-				<!--end::Wrapper-->
 			</div>
 
 			<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
-				<!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
 				<span class="svg-icon">
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 						<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="black" />
 						<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="black" />
 					</svg>
 				</span>
-				<!--end::Svg Icon-->
 			</div>
 			
 			
