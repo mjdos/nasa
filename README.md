@@ -34,6 +34,24 @@ The use of graphs to present multiple variables (such as force, frequency, and G
 The graph will be a valuable tool for optimizing data usage by allowing a clear and intuitive visualization of complex information, such as the relationship between stimulation frequency and muscle strength. The ability to interact with the data in real time, adjusting frequencies through a slider, facilitates dynamic analysis that helps identify patterns and trends. Additionally, comparing experimental groups provides an effective way to assess whether the observed changes are significant, fostering the formulation of new hypotheses. This contributes to more informed decision-making, especially in developing strategies to mitigate muscle atrophy in astronauts.
 <br>
 
+#### Clear Visualization of Complex Data
+The graph will allow researchers to clearly and intuitively visualize the relationship between stimulation frequency and muscle strength. This is crucial for understanding how muscles respond to different frequencies, especially in simulated microgravity conditions.
+
+#### Interactive Analysis
+With the slider functionality, users will be able to interact with the data in real time, adjusting frequencies and immediately observing how this affects muscle strength. This interactivity can facilitate scenario exploration and the formulation of new hypotheses.
+
+#### Comparison Between Experimental Groups
+The graphs can help visually compare the responses of different experimental groups (such as mice in flight versus control groups). This can clarify whether the observed changes in muscle strength are significant and how they relate to variables such as GSK3β content.
+
+#### Identification of Patterns and Trends
+The graph can help identify patterns, such as the relationship between frequency and muscle strength, allowing researchers to better understand the underlying mechanisms behind the changes observed during the experiments.
+
+#### Support for Hypothesis Formulation
+By visualizing the data, researchers can formulate new hypotheses about how microgravity affects muscles. This could lead to further investigations and future experiments.
+
+#### Informed Decision-Making
+With the ability to simulate different conditions and observe the effects, the graph can help in decision-making regarding interventions and treatments, especially in developing strategies to minimize muscle atrophy in astronauts.
+
 ## 🌐 Link of Prototype
 https://codecreators.com.br/
 <br><br>
