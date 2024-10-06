@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Http\Request;
-use App\Models\{Sample, Frequency,Contractility};
+use App\Models\{Sample, Frequency, Contractility};
 use Maatwebsite\Excel\Facades\Excel;
 
 
@@ -92,5 +92,30 @@ class MuscleContractilityController extends Controller
         }
     }
 
-
+    public function getForceData()
+    {
+        $forceData = [];
+        $frequencys = Frequency::get(); 
+        
+        foreach ($frequencys as $frequency) {
+            $numericValue = filter_var($frequency->name, FILTER_SANITIZE_NUMBER_INT);
+        
+            if (!empty($numericValue)) {
+                $contracts = Contractility::where('frequency_id', $frequency->id)->get();
+                
+                $contractData = [];
+        
+                foreach ($contracts as $contract) {
+                    $contractData[] = "{$contract->sample->name}: {$contract->frequency}";                }
+        
+                $contractString = implode(", ", $contractData);
+        
+                $forceData[] = "$numericValue: [$contractString]";
+            }
+        }
+        
+        // Retornar os dados como JSON
+        return response()->json($forceData);
+        
+    }
 }
