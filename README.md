@@ -7,7 +7,7 @@
 # MicroForce Analytics
 The "MicroForce Analytics" tool optimizes data usage by providing clear and intuitive visualization of complex information, enhancing researchers' ability to interpret and analyze intricate data sets.
 
-<p align="center"><img src="https://github.com/mjdos/nasa/blob/main/public/assets/imagens/bar.png" width="700" alt="Bar"></p>
+<p align="center"><img border="1" src="https://github.com/mjdos/nasa/blob/main/public/assets/imagens/bar.png" width="700" alt="Bar"></p>
 <p align="center"><img src="https://github.com/mjdos/nasa/blob/main/public/assets/imagens/linha.png" width="700" alt="Line"></p>
 <p align="center"><img src="https://github.com/mjdos/nasa/blob/main/public/assets/imagens/polar.png" width="700" alt="Polar"></p>
 <p align="center"><img src="https://github.com/mjdos/nasa/blob/main/public/assets/imagens/radar.png" width="700" alt="Radar"></p>
