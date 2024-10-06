@@ -7,7 +7,8 @@
 # MicroForce Analytics
 The tool for optimizing data usage by allowing a clear and intuitive visualization of complex information.
 
-<br><br>
+<br>
+
 ## 📚 Introduction
 <br>
 The simulations of the graphs, based on the experimental data collected during the study of the muscle contraction protocol, offer a powerful tool for researchers to better understand the effects of microgravity conditions on muscle strength and composition. Next, we explore how these graphs can contribute to the interpretation of the results and the formulation of new hypotheses:
