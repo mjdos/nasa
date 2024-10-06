@@ -39,3 +39,4 @@ Route::get('/simulator', function () {
     return view('simulator');
 })->name('simulator');
 
+Route::get('/force-data', [MuscleContractilityController::class, 'getForceData']);

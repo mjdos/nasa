@@ -23,7 +23,6 @@ class Contractility extends Model
         return $this->belongsTo(Sample::class, 'sample_id');
     }
 
-    // Relacionamento com tbl_frequency
     public function frequency()
     {
         return $this->belongsTo(Frequency::class, 'frequency_id');
