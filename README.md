@@ -62,9 +62,9 @@ https://codecreators.com.br/
 <br><br>
 <br><br>
 
-## 🌐 Link of the Presentation
+## 🌐 Link of the Introduction Presentation
 <br>
-L...
+<p align="left"><a href="https://github.com/mjdos/tesouro_direto/blob/main/public/assets/imagens/introduction.pdf">Download of  Introduction Presentation</a></p>
 
 <br><br>
 
