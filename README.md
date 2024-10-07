@@ -18,7 +18,7 @@ The "MicroForce Analytics" tool optimizes data usage by providing clear and intu
 <p align="left"><a href="https://github.com/mjdos/nasa/blob/main/public/assets/imagens/introduction.pdf">Download of  Introduction Presentation</a></p>
 <br>
 The simulations of the graphs, based on the experimental data collected during the study of the muscle contraction protocol, offer a powerful tool for researchers to better understand the effects of microgravity conditions on muscle strength and composition. Next, we explore how these graphs can contribute to the interpretation of the results and the formulation of new hypotheses:
-<br><br>
+<br>
 
 #### Visualization of Muscle Response
 Interactive graphs allow researchers to visualize the relationship between stimulus frequency and muscle force generated under different conditions. For example, by observing the force-frequency curve, it is possible to identify patterns that indicate how peak isometric force varies with the applied frequency. This can help determine the optimal frequency to maximize force in simulated microgravity environments, contributing to a better understanding of muscle adaptations.
