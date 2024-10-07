@@ -60,13 +60,7 @@ With the ability to simulate different conditions and observe the effects, the g
 
 ## 🌐 Link of Prototype
 https://codecreators.com.br/
-<br><br>
-<br><br>
-
-## 🌐 Link of the Introduction Presentation
-<p align="left"><a href="https://github.com/mjdos/nasa/blob/main/public/assets/imagens/introduction.pdf">Download of  Introduction Presentation</a></p>
-
-<br><br>
+<br>
 
 ## 🚀 Technologies Used
 
