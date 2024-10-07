@@ -15,6 +15,7 @@ The "MicroForce Analytics" tool optimizes data usage by providing clear and intu
 <br>
 
 ## 📚 Introduction
+<p align="left"><a href="https://github.com/mjdos/nasa/blob/main/public/assets/imagens/introduction.pdf">Download of  Introduction Presentation</a></p>
 <br>
 The simulations of the graphs, based on the experimental data collected during the study of the muscle contraction protocol, offer a powerful tool for researchers to better understand the effects of microgravity conditions on muscle strength and composition. Next, we explore how these graphs can contribute to the interpretation of the results and the formulation of new hypotheses:
 <br><br>
@@ -73,15 +74,19 @@ Tools and technologies that were used in our project.
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,php,laravel,vscode,linux,nodejs,js,html,jquery,mysql" />
+    <img src="https://skillicons.dev/icons?i=git,github,php,laravel,vscode,js,html,mysql" />
   </a>
 </p>
 <br>
-## ⚙️ Mathematical expressions used
 
-E...
-<br><br>
-## 🏆 P
+## 🎞 Video
+
+We have prepared a series of videos to demonstrate the solution working.
+
+| Descrição | Video |
+| ------ | ------ |
+| Video CodeCreators | [video](https://youtu.be/kL7I3DXRnhU) |
+
 
 <br><br>
 ## 📝 License
