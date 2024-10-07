@@ -181,7 +181,7 @@
 								<canvas id="myRadarChart" width="400" height="150"></canvas>
 							</div>
 						</div>
-						<input type="range" id="frequencySliderRadar" min="1" max="160" value="1" step="1">
+						<input type="range" id="frequencySliderRadar" min="1" max="160" value="1" step="1"><br>
 						<label for="frequencySliderRadar">Frequency: <span id="frequencyValueRadar">1 Hz</span></label>
 						<br>
 					</div>
